@@ -1,0 +1,35 @@
+{
+  "name": "@crashbytes/project-tracker-mcp",
+  "version": "1.0.0",
+  "description": "An MCP server for project task tracking. Companion repo for the CrashBytes tutorial on building MCP servers in TypeScript.",
+  "type": "module",
+  "bin": {
+    "project-tracker-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "inspect": "npx @modelcontextprotocol/inspector node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "typescript",
+    "project-tracker"
+  ],
+  "author": "Michael Eakins",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
