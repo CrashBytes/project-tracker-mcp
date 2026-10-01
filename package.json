@@ -25,7 +25,7 @@
   "author": "Michael Eakins",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@modelcontextprotocol/sdk": "^1.31.0",
     "zod": "^4.6.5"
   },
   "overrides": {
@@ -39,7 +39,7 @@
     "body-parser": "^2.3.0"
   },
   "devDependencies": {
-    "@types/node": "^26.5.1",
+    "@types/node": "^26.6.3",
     "typescript": "^5.9.3"
   }
 }
